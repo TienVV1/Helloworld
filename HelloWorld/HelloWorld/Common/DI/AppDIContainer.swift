@@ -27,8 +27,8 @@ class AppDIContainer {
             HelloWorldUC(r.resolve(HelloWorldRepos.self)!)
         }
         
-        main.register(HelloWorld.self) { r in
-            let controller = HelloWorld()
+        main.register(HelloWorldVC.self) { r in
+            let controller = HelloWorldVC()
             controller.presenter = HelloWorldPresenter(r.resolve(HelloWorldUC.self)!)
             return controller
         }

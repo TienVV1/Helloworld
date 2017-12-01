@@ -10,7 +10,7 @@
 		842715E11FD125F300B527F9 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842715E01FD125F300B527F9 /* BaseVC.swift */; };
 		842715E41FD12BE600B527F9 /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842715E31FD12BE600B527F9 /* AppDIContainer.swift */; };
 		8482B8E61FD10E5800F12DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482B8E51FD10E5800F12DF8 /* AppDelegate.swift */; };
-		8482B8E81FD10E5800F12DF8 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482B8E71FD10E5800F12DF8 /* HelloWorld.swift */; };
+		8482B8E81FD10E5800F12DF8 /* HelloWorldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482B8E71FD10E5800F12DF8 /* HelloWorldVC.swift */; };
 		8482B8ED1FD10E5800F12DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8482B8EC1FD10E5800F12DF8 /* Assets.xcassets */; };
 		8482B8F01FD10E5800F12DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8482B8EE1FD10E5800F12DF8 /* LaunchScreen.storyboard */; };
 		8482B8FB1FD10E5900F12DF8 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482B8FA1FD10E5900F12DF8 /* HelloWorldTests.swift */; };
@@ -61,7 +61,7 @@
 		842715E31FD12BE600B527F9 /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
 		8482B8E21FD10E5800F12DF8 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8482B8E51FD10E5800F12DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8482B8E71FD10E5800F12DF8 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
+		8482B8E71FD10E5800F12DF8 /* HelloWorldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldVC.swift; sourceTree = "<group>"; };
 		8482B8EC1FD10E5800F12DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8482B8EF1FD10E5800F12DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8482B8F11FD10E5800F12DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -330,7 +330,7 @@
 		8482B9331FD11F9500F12DF8 /* Hello */ = {
 			isa = PBXGroup;
 			children = (
-				8482B8E71FD10E5800F12DF8 /* HelloWorld.swift */,
+				8482B8E71FD10E5800F12DF8 /* HelloWorldVC.swift */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -682,7 +682,7 @@
 				842715E41FD12BE600B527F9 /* AppDIContainer.swift in Sources */,
 				8482B9381FD11FF600F12DF8 /* HelloView.swift in Sources */,
 				842715E11FD125F300B527F9 /* BaseVC.swift in Sources */,
-				8482B8E81FD10E5800F12DF8 /* HelloWorld.swift in Sources */,
+				8482B8E81FD10E5800F12DF8 /* HelloWorldVC.swift in Sources */,
 				8482B9431FD122E800F12DF8 /* HelloWorldUC.swift in Sources */,
 				8482B9461FD1231600F12DF8 /* HelloWorldRepos.swift in Sources */,
 				8482B94B1FD1240500F12DF8 /* HelloWorldApi.swift in Sources */,
