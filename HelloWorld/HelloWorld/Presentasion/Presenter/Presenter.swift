@@ -1,0 +1,18 @@
+//
+//  Presenter.swift
+//  HelloWorld
+//
+//  Created by Vu Van Tien on 12/1/2560 BE.
+//  Copyright © 2560 BE MyStudio. All rights reserved.
+//
+
+import Foundation
+
+protocol Presenter {
+    associatedtype T
+    
+    func attachView(_ view: T)
+    func detachView()
+    
+}
+
