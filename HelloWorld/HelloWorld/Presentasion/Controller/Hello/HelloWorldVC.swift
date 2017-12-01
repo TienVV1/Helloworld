@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class HelloWorld : BaseVC,  HelloView{
+class HelloWorldVC : BaseVC,  HelloView{
     
     @IBOutlet weak var lblHelloWorld: UILabel!
     

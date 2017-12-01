@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HelloWorld" customModule="HelloWorld" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HelloWorldVC" customModule="HelloWorld" customModuleProvider="target">
             <connections>
                 <outlet property="lblHelloWorld" destination="YOy-G8-Hux" id="HOA-3i-tkz"/>
                 <outlet property="view" destination="iN0-l3-epB" id="O8Z-8Y-FCR"/>
